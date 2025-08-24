@@ -1,0 +1,17 @@
+python-dotenv
+google-genai
+langchain-google-genai
+google-cloud-language
+pandas 
+datetime
+google-cloud-documentai
+bs4
+newspaper3k
+lxml[html_clean]
+google-cloud-bigquery
+langchain 
+langchain-core
+langchain-community
+langgraph
+pybigquery
+db-dtypes

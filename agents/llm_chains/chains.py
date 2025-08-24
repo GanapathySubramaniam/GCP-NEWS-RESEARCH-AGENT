@@ -1,0 +1,7 @@
+from .prompts import decision_prompt_template,news_summarizer_prompt_template
+from .llm import llm,precise_llm
+from .structred_outputs import decision,news_summarizer 
+
+
+decision_chain=decision_prompt_template|precise_llm.with_structured_output(decision)
+news_summarizer_chain=news_summarizer_prompt_template| llm.with_structured_output(news_summarizer)
